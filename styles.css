@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 20px;
+    background-color: #210148;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 2em;
+}
+h2{
+    color: #FFFFFF;/*文字色*/
+  padding: 0.5em 0;/*上下の余白*/
+  border-top: solid 3px #FFFFFF;/*上線*/
+  border-bottom: solid 3px #FFFFFF;/*下線*/
+  font-size: 2em
+}
+
+.character-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.character {
+    background-color: #9900cc;
+    border: 2px solid #333;
+}
+.character img {
+    max-width: 100%;
+    border-radius: 5px;
+    border: 2px solid #333;
+}
+.character-name {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #333;
+}
+
+li{
+    font-size: 25px;
+    color: #9b72b0;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.imgR{
+    float: left;
+    border: 2px solid #333;
+    background-color: #9900cc;
+}
+p{
+    color: #FFFFFF;
+    font-size: 1.25em;
+}
+.fon{
+    font-size: 20px;
+}
+
+.onl{
+    font-size:0.5emem;
+    color: red;
+}
+h3{
+    font-size: 1.25em;
+    color: #FFFFFF;
+}
+h4{
+    font-size: 1.5em;
+    color: #ffffff;
+}
+.p1{
+    font-size: 0.75em;
+}
+.kya{
+    font-size: 0.5em;
+}
+
+.class{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+video {
+    width: 100%;
+    display: block;
+}
+large-text{
+    font-size: 40px;
+}
